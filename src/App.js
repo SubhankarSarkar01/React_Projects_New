@@ -38,7 +38,7 @@ function App() {
       <Navbar title="TextUtils" aboutText="About Us" mode={mode} toggleMode={toggleMode}/>
       <Alert alert = {alert}/>
       <div className="container my-3">
-      <TextForm heading="Enter the Text to Analyze below : " mode={mode}/>
+      <TextForm heading="Try Textutils - Word Counter, Character Counter, Remove extra spaces: " mode={mode}/>
       <About/>
       </div>
     </>
